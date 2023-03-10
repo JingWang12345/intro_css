@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,700;1,100&family=Yeseva+One&display=swap');
+
+h1{
+    background-color: indianred;
+    font-family: 'Yeseva One', cursive;
+}
+
+a{
+    background-color: gold;
+}
+
+body{
+    background-color: rgb(238, 237, 230);
+    font-family: 'Roboto', sans-serif;
+}
+
+.font-grosso{
+    font-size: x-large;
+}
+
+.font-normale{
+    font-weight: 400;
+}
+
+#titolo-principale{
+    color: cornflowerblue;
+}
+
+h4,h5{
+    color: burlywood;
+}
+
+.font-grosso a{
+    color: aqua;
+}
+
+.titolone{
+    -webkit-box-shadow: 14px 7px 39px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 14px 7px 39px 5px rgba(0,0,0,0.75);
+    box-shadow: 14px 7px 39px 5px rgba(0,0,0,0.75);
+    width: 500px;
+    height: 500px;
+}
+
+.mamma{
+    background-color: rgb(91, 158, 193);
+    width: 50%;
+    height: 50%;
+}
+
+.figlia{
+    width: 50vh;
+    min-width: 200px;
+    height: 50px;
+    overflow: hidden;
+}
+
+.primo{
+    background-color: rgb(34, 34, 118);
+    padding: 18px;
+}
+
+.secondo{
+    background-color: chartreuse;
+    margin: 20px 60px 38px 40px;
+}
+
+.terzo{
+    /* border-style: solid;
+    border-color: coral;
+    border-width: 40px; */
+    height: 400px;
+    width: 800px;
+    border: solid 8px rgb(24, 98, 235);
+    /* border-top-left-radius: 30px; */
+    border-radius: 30px 100px 2px 200px;
+    background-image: url(./assets/rana-di-vetro.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.quarto{
+    background-color: blue;
+    background: rgb(9,36,0);
+    background: linear-gradient(263deg, rgba(9,36,0,1) 0%, rgba(9,9,121,1) 35%, rgba(150,7,78,1) 49%, rgba(74,168,125,1) 75%, rgba(0,212,255,1) 100%); 
+    display: inline-block;
+    color: rgb(249, 251, 253);
+    width: 300px;
+    height: 300px;
+}
+
+.quinto{
+    background-color: blueviolet;
+    display:inline ;
+}
